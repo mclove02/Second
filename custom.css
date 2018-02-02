@@ -27,7 +27,6 @@ h1 {
   font-size: 40px;
   letter-spacing: -1px;
   line-height: 50px;
-  
 }
 
 p {
@@ -44,23 +43,56 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
+  
   .main-container {
-    background-color: yellow;
+    background-color: black;
   }
+  
+  h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 50px;
+  color: white;
 }
+  p {
+    color: lightcoral;
+  }
+  
+  .special {
+    background-color: white;
+    color: firebrick;
+  }
+  
+  .special2 {
+    background-color: lightgoldenrodyellow;
+    color: black;
+  }
+  
+  img {
+    width: 300px;
+    margin-top: 150px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
